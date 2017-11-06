@@ -10,6 +10,16 @@ namespace TridyTest
     {
         static void Main(string[] args)
         {
+            Osoba osoba = new Osoba();
+            osoba.vek = 50;
+            osoba.jmeno = "Jirka";
+            //Console.WriteLine(osoba.DejNazev);
+            Zak zak = new Zak();
+            zak.jmeno = "Alfred";
+            osoba.VypisJmeno();
+            zak.VypisJmeno();
+            Console.Read();
+
         }
     }
 }
